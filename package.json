@@ -1,0 +1,15 @@
+{
+  "name": "m3u-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js para disponibilizar uma lista M3U hospedada no GitHub",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
